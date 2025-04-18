@@ -56,7 +56,7 @@
    sudo apt upgrade -y
    
    # Install development packages
-   sudo apt install git libpq-dev python3-dev build-essential postgresql pre-commit postgresql-contrib cookiecutter python3.12 python3.12-venv npm -y
+   sudo apt install git libpq-dev python3-dev build-essential postgresql pre-commit postgresql-contrib cookiecutter python3.12 python3.12-venv npm libreadline-dev -y
    
    # Configure Git
    git config --global user.name "Your Name"
