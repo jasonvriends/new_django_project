@@ -103,20 +103,7 @@
    # Install via the official script
    sudo bash < <(curl -sL https://raw.githubusercontent.com/axllent/mailpit/develop/install.sh)
    ```
-
-2. **Configure for Project Use**
-   ```bash
-   # Navigate to your project directory
-   cd <project_slug>
-   
-   # Copy the binary to project root (optional)
-   cp $(which mailpit) .
-   
-   # Make it executable if copied locally
-   chmod +x mailpit
-   ```
-
-3. **Run Mailpit**
+2. **Run Mailpit**
    ```bash
    # Start Mailpit in a separate terminal
    ./mailpit
