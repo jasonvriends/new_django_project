@@ -86,6 +86,7 @@
    ```
    # TYPE  DATABASE        USER            ADDRESS                 METHOD
    host    all             all             127.0.0.1/32            trust
+   local   all             all                                     trust
    ```
 
 4. **Restart PostgreSQL**
