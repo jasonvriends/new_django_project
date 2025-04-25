@@ -207,7 +207,7 @@ python manage.py runserver 0.0.0.0:8000
 
 **Option 2: Asynchronous**
 ```bash
-uvicorn config.asgi:application --host 0.0.0.0 --reload --reload-include '*.html'
+uvicorn config.asgi:application --host 0.0.0.0 --reload --reload-include '*.html' --timeout-graceful-shutdown 5
 ```
 
 ## Next Steps
