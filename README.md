@@ -225,4 +225,6 @@ After completing setup, you can:
 - [Official Django Documentation](https://docs.djangoproject.com/)
 - [WSL Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
 - [Cursor AI Documentation](https://cursor.com/docs)
-
+- [allauth ui templates](https://github.com/danihodovic/django-allauth-ui/tree/master/allauth_ui/templates)
+- [Daisy UI](https://daisyui.com/)
+- 
